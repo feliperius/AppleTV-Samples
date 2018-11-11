@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC0D6AE1CDA761000577144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6AD1CDA761000577144 /* AppDelegate.swift */; };
+		2FC0D6B01CDA761000577144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6AF1CDA761000577144 /* ViewController.swift */; };
+		2FC0D6B51CDA761000577144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0D6B41CDA761000577144 /* Assets.xcassets */; };
+		2FC0D6BD1CDA769100577144 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6BC1CDA769100577144 /* TabBarViewController.swift */; };
+		2FC0D6C01CDA771E00577144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC0D6BF1CDA771E00577144 /* Main.storyboard */; };
+		2FC0D6C21CDA774400577144 /* MoviesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6C11CDA774400577144 /* MoviesItem.swift */; };
+		2FC0D6C41CDA775100577144 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6C31CDA775100577144 /* Movies.swift */; };
+		2FC0D6C61CDA775C00577144 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0D6C51CDA775C00577144 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC0D6AA1CDA761000577144 /* DesafioHelloAppleTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioHelloAppleTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC0D6AD1CDA761000577144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC0D6AF1CDA761000577144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FC0D6B41CDA761000577144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC0D6B61CDA761000577144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC0D6BC1CDA769100577144 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2FC0D6BF1CDA771E00577144 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2FC0D6C11CDA774400577144 /* MoviesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesItem.swift; sourceTree = "<group>"; };
+		2FC0D6C31CDA775100577144 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		2FC0D6C51CDA775C00577144 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC0D6A71CDA761000577144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC0D6A11CDA761000577144 = {
+			isa = PBXGroup;
+			children = (
+				2FC0D6AC1CDA761000577144 /* DesafioHelloAppleTv */,
+				2FC0D6AB1CDA761000577144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC0D6AB1CDA761000577144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0D6AA1CDA761000577144 /* DesafioHelloAppleTv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC0D6AC1CDA761000577144 /* DesafioHelloAppleTv */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0D6AD1CDA761000577144 /* AppDelegate.swift */,
+				2FC0D6AF1CDA761000577144 /* ViewController.swift */,
+				2FC0D6C31CDA775100577144 /* Movies.swift */,
+				2FC0D6C51CDA775C00577144 /* DetailViewController.swift */,
+				2FC0D6BC1CDA769100577144 /* TabBarViewController.swift */,
+				2FC0D6C11CDA774400577144 /* MoviesItem.swift */,
+				2FC0D6BF1CDA771E00577144 /* Main.storyboard */,
+				2FC0D6B41CDA761000577144 /* Assets.xcassets */,
+				2FC0D6B61CDA761000577144 /* Info.plist */,
+			);
+			path = DesafioHelloAppleTv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC0D6A91CDA761000577144 /* DesafioHelloAppleTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC0D6B91CDA761000577144 /* Build configuration list for PBXNativeTarget "DesafioHelloAppleTv" */;
+			buildPhases = (
+				2FC0D6A61CDA761000577144 /* Sources */,
+				2FC0D6A71CDA761000577144 /* Frameworks */,
+				2FC0D6A81CDA761000577144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioHelloAppleTv;
+			productName = DesafioHelloAppleTv;
+			productReference = 2FC0D6AA1CDA761000577144 /* DesafioHelloAppleTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC0D6A21CDA761000577144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bepid;
+				TargetAttributes = {
+					2FC0D6A91CDA761000577144 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2FC0D6A51CDA761000577144 /* Build configuration list for PBXProject "DesafioHelloAppleTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC0D6A11CDA761000577144;
+			productRefGroup = 2FC0D6AB1CDA761000577144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC0D6A91CDA761000577144 /* DesafioHelloAppleTv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC0D6A81CDA761000577144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0D6C01CDA771E00577144 /* Main.storyboard in Resources */,
+				2FC0D6B51CDA761000577144 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC0D6A61CDA761000577144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0D6C41CDA775100577144 /* Movies.swift in Sources */,
+				2FC0D6BD1CDA769100577144 /* TabBarViewController.swift in Sources */,
+				2FC0D6C21CDA774400577144 /* MoviesItem.swift in Sources */,
+				2FC0D6C61CDA775C00577144 /* DetailViewController.swift in Sources */,
+				2FC0D6B01CDA761000577144 /* ViewController.swift in Sources */,
+				2FC0D6AE1CDA761000577144 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FC0D6B71CDA761000577144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2FC0D6B81CDA761000577144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC0D6BA1CDA761000577144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DesafioHelloAppleTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.DesafioHelloAppleTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC0D6BB1CDA761000577144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DesafioHelloAppleTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.DesafioHelloAppleTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC0D6A51CDA761000577144 /* Build configuration list for PBXProject "DesafioHelloAppleTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0D6B71CDA761000577144 /* Debug */,
+				2FC0D6B81CDA761000577144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC0D6B91CDA761000577144 /* Build configuration list for PBXNativeTarget "DesafioHelloAppleTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0D6BA1CDA761000577144 /* Debug */,
+				2FC0D6BB1CDA761000577144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC0D6A21CDA761000577144 /* Project object */;
+}
